@@ -30,3 +30,9 @@ p, .date {
   margin: 0;
   font-weight: normal;
 }
+
+#Footer {
+　height: 100px;
+　position: relative;
+　margin-top: -100px;
+}

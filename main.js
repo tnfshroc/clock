@@ -353,6 +353,8 @@ function draw(){
   //更新訊息
   if ((hour>=23)||(hour<=5)){
   	$(".message").text("Please, Go Bed.");  
+  }else if ((hour>=6)&&(hour<=9)){
+    $(".message").text("Morning, Slept Well?");  	  
   }else{
     $(".message").text("Boss, CODING Please");  
   }

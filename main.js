@@ -310,8 +310,8 @@ function draw(){
     }  
   }
   switch (day){
-  	case 0:
-    	var myday = "Sun.";
+    case 0:
+      var myday = "Sun.";
       break;
     case 1:
     	var myday = "Mon.";
